@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Weather App</h1>
+        <section class="mt-5">
+            <form id="weatherForm" class="text-center">
+                <div class="form-group">
+                    <label for="zipCode">Enter Zip Code:</label>
+                    <input type="text" id="zipCode" class="form-control w-25 mx-auto" placeholder="e.g. 90210" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Get Weather</button>
+            </form>
+        </section>
+        <section id="weatherResult" class="mt-5 text-center">
+            <!-- Weather data will be displayed here -->
+        </section>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
